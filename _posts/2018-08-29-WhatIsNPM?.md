@@ -24,7 +24,7 @@ https://docs.npmjs.com/getting-started/what-is-npm, 현재는 백엔드 패키�
 <br>
 <br>
 
-### 2. O P Q M
+## 2. O P Q M
 
 ---
 
@@ -35,7 +35,7 @@ https://docs.npmjs.com/getting-started/what-is-npm, 현재는 백엔드 패키�
   <br>
   <br>
 
-### 3. Command Line NPM #1
+## 3. Command Line NPM #1
 
 ---
 
@@ -78,7 +78,7 @@ npm install <패키지 이름> [--save] // 특정 패키지를 npm서버에서 �
 <br>
 <br>
 
-### 5. Command Line NPM #2
+## 5. Command Line NPM #2
 
 ---
 
