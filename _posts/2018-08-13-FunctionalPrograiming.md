@@ -5,6 +5,7 @@ date: 2018-08-13 17:30:37 +0900
 categories: jekyll update
 ---
 
+<br>
 # 함수형 프로그래밍
 
 > 함수형 프로그래밍은 순수한 함수를 작성하고, 공유된 상태와 변경 가능한 데이터 및 부작용을 피하여 소프트웨어를 작성하는 프로세스이다.
@@ -61,10 +62,10 @@ console.log(newObj); // { x: 1, y: 2, z: 3 }
 ```javascript
 let originalNums = [1, 2, 3, 4, 5];
 
-// 명령형 프로그래밍
+// 선언형 프로그래밍
 let smallNums = original.map(num => num * 2);
 
-// 선언형 프로그래밍
+// 명령형 프로그래밍
 let smallNums = [];
 for (let i = 0; i < originalNums.length; i++) {
   smallNums.push(originalNums[i] * 2);
