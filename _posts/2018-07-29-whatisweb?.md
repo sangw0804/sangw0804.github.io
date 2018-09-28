@@ -2,7 +2,7 @@
 layout: post
 title: '웹이란?'
 date: 2018-07-29 20:30:37 +0900
-categories: jekyll update
+categories: web
 ---
 
 <br>

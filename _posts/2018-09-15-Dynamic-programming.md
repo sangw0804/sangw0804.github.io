@@ -2,7 +2,7 @@
 layout: post
 title: '다이나믹 프로그래밍'
 date: 2018-09-15 17:30:37 +0900
-categories: jekyll update
+categories: programming algorithm
 ---
 
 <br>

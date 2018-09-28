@@ -2,7 +2,7 @@
 layout: post
 title: '재귀 함수'
 date: 2018-09-28 11:30:37 +0900
-categories: jekyll update
+categories: programming algorithm
 ---
 
 <br>

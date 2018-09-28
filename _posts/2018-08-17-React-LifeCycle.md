@@ -2,7 +2,7 @@
 layout: post
 title: '리액트 라이프사이클'
 date: 2018-08-17 17:30:37 +0900
-categories: jekyll update
+categories: web front-end react
 ---
 
 <br>

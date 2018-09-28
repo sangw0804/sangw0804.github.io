@@ -2,7 +2,7 @@
 layout: post
 title: 'Big-O 표기법과 시간 복잡도'
 date: 2018-09-01 20:30:37 +0900
-categories: jekyll update
+categories: programming
 ---
 
 <br>

@@ -2,7 +2,7 @@
 layout: post
 title: 'Embedded & Referenced DB Schema'
 date: 2018-08-24 17:30:37 +0900
-categories: jekyll update
+categories: database
 ---
 
 <br>

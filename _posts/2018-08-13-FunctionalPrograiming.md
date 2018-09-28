@@ -2,7 +2,7 @@
 layout: post
 title: '함수형 프로그래밍'
 date: 2018-08-13 17:30:37 +0900
-categories: jekyll update
+categories: programming
 ---
 
 <br>

@@ -2,7 +2,7 @@
 layout: post
 title: 'NPM - 노드 패키지 매니저'
 date: 2018-08-29 17:30:37 +0900
-categories: jekyll update
+categories: javascript node
 ---
 
 <br>

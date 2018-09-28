@@ -2,7 +2,7 @@
 layout: post
 title: '하노이의 탑 알고리즘'
 date: 2018-09-08 17:30:37 +0900
-categories: jekyll update
+categories: programming algorithm
 ---
 
 <br>
