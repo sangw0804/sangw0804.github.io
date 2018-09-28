@@ -5,7 +5,6 @@ date: 2018-08-24 17:30:37 +0900
 categories: database
 ---
 
-<br>
 # Embedded & referenced data
 
 <br>

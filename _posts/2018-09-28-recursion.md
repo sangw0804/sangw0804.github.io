@@ -5,7 +5,6 @@ date: 2018-09-28 11:30:37 +0900
 categories: programming algorithm
 ---
 
-<br>
 재귀 함수는 자기 자신을 다시 호출하는 함수를 말한다.
 
 ```javascript
