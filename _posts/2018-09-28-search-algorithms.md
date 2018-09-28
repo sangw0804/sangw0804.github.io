@@ -51,11 +51,13 @@ const binarySearch = (sortedArr, target) => {
 
 ```javascript
 const searchString = (str, subStr) => {
-  for (let char of str) {
-    for (let subChar of subStr) {
-      if (char !== subChar) {
+  outter: for (let i = 0; i < str.length; i++) {
+    for (let j = 0; j < subStr.length; j++) {
+      if (str[i + j] !== subStr[j]) {
+        continue outter;
       }
     }
+    return true;
   }
   return false;
 };
