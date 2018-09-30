@@ -48,8 +48,8 @@ const asyncFunc = async url => {
 asyncFunc(url);
 ```
 
-우선 간단히 async / await 의 문법에 대해 설명하면, 모든 함수는 정의할 때 앞에 async 를 붙여 async 함수로 만들 수 있다. async 함수는 무조건 async 함수가 리턴하는 값을 resolve 하는 Promise 를 리턴하게 된다. 위의 asyncFunc 는 아무것도 리턴하지 않으므로 undefined 를 resolve 하는 Promise 를 리턴한다.<br>
-await 는 async 함수 안에서만 사용할 수 있는데, 프로미스 앞에 사용하면 해당 프로미스가 fulfill 될 때까지 기다렸다가 fulfill 된 값을 리턴한다. 즉 위에서 fetchDate()가 프로미스를 리턴하므로 해당 프로미스가 fulfill 될때까지 기다려서 값만을 리턴해 response 라는 변수에 할당하는 것이다.<br><br>
+우선 간단히 async / await 의 문법에 대해 설명하면, 모든 함수는 정의할 때 앞에 async 를 붙여 async 함수로 만들 수 있다. async 함수는 무조건 async 함수가 리턴하는 값을 resolve 하는 Promise 를 리턴하게 된다. 위의 asyncFunc 는 아무것도 리턴하지 않으므로 undefined 를 resolve 하는 Promise 를 리턴한다.(만약 async 함수 안에서 에러가 발생할 경우 해당 에러를 reject 하는 Promise 를 리턴한다. )<br>
+await 는 async 함수 안에서만 사용할 수 있는데, 프로미스 앞에 사용하면 해당 프로미스가 fulfill 될 때까지 기다렸다가 fulfill 된 값을 리턴한다. 즉 위에서 fetchDate()가 프로미스를 리턴하므로 해당 프로미스가 fulfill 될때까지 기다려서 값만을 리턴해 response 라는 변수에 할당하는 것이다.(만약 await 한 Promise 가 reject 될 경우 에러를 던진다.)<br><br>
 
 그렇다면 async / await 에서 에러는 어떻게 처리할까? 위의 코드에도 나와 있듯, 일반적 동기 코드처럼 try catch 문을 사용하면 된다!!<br>
 그렇게 하므로써 해결 할 수 있는 문제가 또 있다.
