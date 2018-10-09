@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Linux - 하드링크 & 소프트(심볼릭)링크'
-date: 2018-10-05 23:30:37 +0900
+date: 2018-10-08 23:30:37 +0900
 categories: linux commandline link
 ---
 

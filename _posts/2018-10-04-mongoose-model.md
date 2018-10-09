@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Mongoose Model 활용하기'
-date: 2018-10-05 23:30:37 +0900
+date: 2018-10-04 23:30:37 +0900
 categories: web back-end mongoose mongodb tips
 ---
 
