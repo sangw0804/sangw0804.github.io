@@ -29,7 +29,7 @@ ls: ./nosuchdirectory: No such file or directory
 > empty.txt
 ```
 
-이렇게 >를 두개 연달아 쓰면 덮어쓰기가 아닌 이어쓰기가 된다.<br>
+/>> 이렇게 >를 두개 연달아 쓰면 덮어쓰기가 아닌 이어쓰기가 된다.<br>
 그렇다면 표준 오류 리다이렉션은 어떻게 할 수 있을까?
 
 ```console
