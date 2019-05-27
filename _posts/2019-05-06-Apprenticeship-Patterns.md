@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[책 리뷰] 프로그래머의 길, 멘토에게 묻다.'
-date: 2019-05-14 20:30:37 +0900
+date: 2019-05-06 20:30:37 +0900
 categories: book developer
 ---
 
