@@ -29,6 +29,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
+future: true
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 7
